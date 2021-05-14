@@ -7,8 +7,9 @@
 // console.log(body.explanation);
 
 // return getPartners
-
+const getPartners = () =>{
 const I_URL = "https://api.filtered.ai/q/get-partner-availability"; 
-fetch(I_URL)
+return fetch(I_URL)
 .then(data=>{return data.json()})
 .then(res=>{console.log(res)})
+};
