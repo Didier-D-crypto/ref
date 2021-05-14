@@ -13,3 +13,4 @@ return fetch(I_URL)
 .then(data=>{return data.json()})
 .then(res=>{console.log(res)})
 };
+return getPartners; 
