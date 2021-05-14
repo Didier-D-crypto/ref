@@ -1,6 +1,13 @@
 {
     "configurations": [
         {
+            "type": "chrome",
+            "request": "attach",
+            "name": "Attach to Chrome",
+            "port": 9222,
+            "webRoot": "${workspaceFolder}"
+        },
+        {
             "type": "pwa-chrome",
             "name": "https://github.com/Didier-D-crypto/ref.git",
             "request": "launch",
