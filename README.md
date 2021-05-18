@@ -5,3 +5,4 @@ by destructuring the data into seperate variables and
 from that data, the feature would redisplay it into element itself which enables the output through incorporated from an async function for better promise based code. 
  
 
+[✔] Used Postman to preview raw and value of body.
