@@ -18,3 +18,4 @@ return fetch(I_URL)
 ;
 return getPartners; 
 
+
